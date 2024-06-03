@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Register.css">
+</head>
+<body>
+   <main> <div class="register_container">
+    <h1>Register</h1>
+    <form action="/api/v1/user/register" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirmPassword">
+        <div class="btn_container">
+            <button type="submit">Signup</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</div></main>
+</body>
+</html>
